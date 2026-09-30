@@ -1,0 +1,106 @@
+/* Reset dasar & Styling Body (Soal No. 2: Permainan Warna Background) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+    /* Warna background gradient menarik */
+    color: #333;
+}
+
+/* Kontainer Utama Flexbox */
+.container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Sidebar Satu (Kiri) */
+.sidebar-satu {
+    flex: 1;
+    /* Porsi lebar 1 */
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sidebar-satu h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.sidebar-satu ul {
+    padding-left: 20px;
+}
+
+.sidebar-satu ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar-satu ul li a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sidebar-satu ul li a:hover {
+    text-decoration: underline;
+    color: #16a085;
+}
+
+/* Konten Utama (Tengah) */
+.content {
+    flex: 2.5;
+    /* Porsi lebar lebih besar */
+    padding: 10px;
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+/* Styling Gambar Artikel (Soal No. 2) */
+.gambar-artikel {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    line-height: 1.6;
+    font-size: 14px;
+    color: #4a4a4a;
+    text-align: justify;
+}
+
+/* Sidebar Dua (Kanan) */
+.sidebar-dua {
+    flex: 1.2;
+    /* Porsi lebar 1.2 */
+    background-color: #f1f4f8;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sidebar-dua h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+}
+
+.sidebar-dua p {
+    line-height: 1.5;
+    font-size: 13px;
+    color: #555;
+}
